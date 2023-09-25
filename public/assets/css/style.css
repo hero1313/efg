@@ -1,0 +1,448 @@
+.add-btn {
+    width: max-content;
+    margin-top: 20px;
+}
+
+.content-wrapper {
+    padding: 30px;
+}
+
+.card-img {
+    height: 100%;
+    height: 227px;
+    object-fit: contain;
+    margin-left: 10px;
+    border-radius: 10px !important;
+}
+
+.edit-btn {
+    float: right;
+    margin-top: 0px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.table-responsive{
+    max-height: 70vh;
+}
+.payment-card img {
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 24px 0px rgba(207, 207, 207, 0.75);
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(207, 207, 207, 0.75);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(207, 207, 207, 0.75);
+}
+
+.last-week-transaction img {
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 24px 0px rgba(207, 207, 207, 0.75);
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(207, 207, 207, 0.75);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(207, 207, 207, 0.75);
+}
+
+.prod-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    min-height: 68px;
+    padding-right: 20px;
+}
+
+.btn-delete {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 5px;
+}
+
+.hidden-cover {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 22;
+    display: none;
+}
+
+.menu-hidden {
+    width: 260px;
+    z-index: 22;
+    background-color: #ffffff;
+}
+
+.gray-background {
+    background-color: rgb(0, 0, 0);
+    width: calc(100% - 0px);
+    z-index: 21;
+    height: 100%;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+}
+
+.close-nav {
+    width: max-content;
+    height: max-content;
+    padding: 5px 10px;
+    z-index: 15;
+    bottom: 50px;
+    right: 50px;
+    margin-top: 20px;
+    float: right;
+    margin-left: 210px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .menu-desktop {
+        display: none;
+    }
+    .burger {
+        display: block !important;
+    }
+    .card-img {
+        object-fit: contain;
+    }
+}
+
+.cards-img {
+    position: absolute !important;
+    right: 10px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.payments-card {
+    display: none;
+}
+
+.app-brand-link {
+    font-size: 25px !important;
+}
+
+.app-brand-logo svg {
+    width: 35px !important;
+}
+
+.app-brand {
+    padding-top: 30px !important;
+}
+
+.add .card {
+    height: 280px;
+}
+
+.cover {
+    object-fit: cover !important;
+}
+
+.contain {
+    object-fit: contain !important;
+}
+
+.office-card {
+    height: 267px !important;
+}
+
+.cover {
+    object-fit: cover !important;
+}
+
+.contain {
+    object-fit: contain !important;
+}
+
+.totaler {
+    width: 100%;
+    padding: 10px;
+    padding-top: 8px;
+    font-weight: 500;
+    border: 1px solid #d9dee3;
+    border-radius: 0.4rem;
+    height: 38.5px;
+}
+
+.totaler-label {
+    text-transform: uppercase;
+}
+
+.head-tr {
+    padding-bottom: 20px;
+}
+
+.head-tr th {
+    text-transform: uppercase;
+}
+
+.detail-tr img {
+    width: 70px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.detail-tr {
+    margin-top: 10px;
+}
+
+.detail-tr h6 {
+    width: max-content;
+    background: #696cff;
+    padding: 10px 12px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+}
+
+.quanty {
+    text-align: right !important;
+}
+
+.save-img {
+    display: none;
+}
+
+.progress-way {
+    height: 15px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f5f5f9;
+}
+
+.progress-line {
+    background-color: #696cff !important;
+    height: 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.progress-line-way {
+    margin-top: -15px;
+    background-color: #696cff33 !important;
+    height: 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.video-instruction {
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid #696cff;
+}
+
+.mission {
+    font-size: 25px;
+}
+
+.menu-item {
+    margin-bottom: 0px !important;
+}
+
+.payze-iban-card {
+    display: none;
+}
+
+@media only screen and (max-width: 610px) {
+    .tips {
+        margin-top: 25px !important;
+    }
+}
+
+.mobile-header {
+    height: 70px;
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    padding: 10px;
+    display: none;
+    box-shadow: 0px 2px 47px 2px rgba(212, 212, 212, 0.75);
+}
+
+@media only screen and (max-width: 1200px) {
+    .mobile-header {
+        display: block;
+        padding: 10px 30px;
+    }
+    .content-wrapper {
+        padding-top: 100px !important;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+@media only screen and (min-width: 700px) {
+    .modal {
+        margin-top: 100px;
+    }
+}
+
+.project {
+    padding: 10px;
+}
+
+.project img {
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.project h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.project .btn {
+    margin-bottom: 20px;
+}
+
+.add-project {
+    width: max-content;
+    right: 50px;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.plane-desc {
+    width: 200px;
+}
+
+.plane-card {
+    padding: 20px;
+    height: 130px;
+    color: #696cff;
+    font-size: 25px;
+}
+
+.plane-card h5 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.color-green {
+    color: #71dd37;
+}
+
+.color-red {
+    color: #ff3e1d;
+}
+
+.color-main {
+    color: #696cff;
+}
+
+.add-div {
+    text-align: right;
+    padding-right: 30px;
+    margin-bottom: -50px;
+    margin-top: 30px;
+}
+
+.pay-icon {
+    font-size: 33px;
+    margin-top: 5px;
+    color: #696cff;
+}
+
+.calc-btn {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.plane-card {
+    margin-bottom: 10px;
+}
+.search-div{
+    max-width: 500px;
+}
+.search{
+    margin-right: 20px;
+}
+.search-div button{
+    height: 40px;
+    margin-top: 5px;
+}
+.last-plane{
+    cursor: pointer;
+}
+th{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background-color: #fff !important;
+}
+.pro-name{
+    position: sticky;
+    left: 0;
+    background-color: #fff !important;
+}
+.bottom-sticky{
+    position: sticky;
+    bottom: 0;
+    background-color: #fff !important; 
+    z-index: 4;
+}
+
+.bold{
+    font-weight: bold;
+}
+.pro-name th{
+    z-index: 5;
+}
+.dash .card .card-title{
+    font-size: 18px !important;
+}
+td{
+    font-size: 12px !important;
+}
+.btn-forecast{
+    min-width: 100px;
+    min-height: 40px;
+}
+.forecasts-row{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.forecast-collapse{
+    max-height: 400px;
+    height: 400px;
+    overflow-y: auto;
+}
+.forecast-tr{
+    display: none;
+}
